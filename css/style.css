@@ -1,0 +1,187 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+ul,ol,li{
+    list-style-type: none;
+}
+.container{
+    width: 800px;
+    margin: 0 auto;
+}
+body{
+    background-color: #F9D0BE;
+}
+#main{
+    padding: 60px 0;
+}
+.main{
+    width: 100%;
+    display: flex;
+}
+.left{
+    width: 50%;
+    background-color: #fff;
+    padding: 50px;
+}
+.heading{
+    margin-bottom: 20px;
+    font-size: 30px;
+    font-family: "Josefin Sans", sans-serif;
+    position: relative;
+}
+.heading::after{
+    position: absolute;
+    content: '';
+    left: 0;
+    bottom: 4px;
+    height: 2px;
+    width: 30px;
+    background-color: #000000;
+}
+
+.left input{
+    padding: 10px 0 10px 10px;
+    height: 40px;
+    width: 300px;
+    font-family: "PT Serif", serif;
+    font-size: 16px;
+    margin: 15px 0;
+    border: none;
+    border-bottom: 2px solid black;
+    border-radius: 10px;
+    outline: none;
+}
+
+.card{
+    padding: 10px 0 10px 10px;
+    height: 40px;
+    width: 300px;
+    font-family: "PT Serif", serif;
+    font-size: 16px;
+    margin-top: 15px;
+}
+.btnn{
+    text-align: center;
+    margin-top: 20px;
+    display: flex;
+    column-gap: 10px;
+    justify-content: center;
+    align-items: center;
+}
+.btnnn{
+    padding: 12px 24px;
+    border-radius: 8px;
+    border: 2px solid transparent;
+    background-color: #D5C8C3;
+    color: #222;
+    font-size: 17px;
+    transition: all linear 0.2s;
+    cursor: pointer;
+}
+.btnnn:hover{
+    background-color: transparent;
+    border: 1px solid #000000;
+}
+.btnnns{
+    padding: 12px 24px;
+    border-radius: 8px;
+    border: 2px solid transparent;
+    background-color: #D5C8C3;
+    color: #222;
+    font-size: 17px;
+    transition: all linear 0.2s;
+    cursor: pointer;
+}
+.btnnns:hover{
+    background-color: transparent;
+    border: 1px solid #000000;
+}
+.right{
+    width: 50%;
+    background-color: #E1C6D6;
+    position: relative;
+}
+.img{
+    margin: 50px 0 0 50px;
+}
+.subheading{
+    padding-left: 50px;
+    font-family: "PT Serif", serif;
+    font-size: 35px;
+    width: 200px;
+    margin-top: 15%;
+    transform: translate(0%, -50%);
+    text-transform: capitalize;
+    display: block;
+}
+.idcard{
+    position: absolute;
+    padding: 15px 10px;
+    width: 350px;
+    background-color: #fff;
+    margin: 0 auto;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: none;
+}
+.demo_name{
+    font-size: 16px;
+    margin: 8px 0;
+    font-family: "PT Serif", serif;
+}
+.demo_email{
+    font-size: 16px;
+    margin: 8px 0;
+    font-family: "PT Serif", serif;
+}
+.demo_prooo{
+    font-size: 16px;
+    margin: 8px 0;
+    font-family: "PT Serif", serif;
+}
+.demo_numberr{
+    font-size: 16px;
+    margin: 8px 0;
+    font-family: "PT Serif", serif;
+}
+.demo_address{
+    font-size: 16px;
+    margin: 8px 0;
+    font-family: "PT Serif", serif;
+    list-style: 14px
+}
+
+/* erors */
+.nameerorr{
+    color: red;
+    text-transform: capitalize;
+    font-size: 14px;
+}
+.emailerorr{
+    color: red;
+    text-transform: capitalize;
+    font-size: 14px;
+}
+.progerorr{
+    color: red;
+    text-transform: capitalize;
+    font-size: 14px;
+}
+.numbererorr{
+    color: red;
+    text-transform: capitalize;
+    font-size: 14px;
+}
+.adresserorr{
+    color: red;
+    text-transform: capitalize;
+    font-size: 14px;
+}
+.carderorr{
+    color: red;
+    text-transform: capitalize;
+    font-size: 14px;
+}
